@@ -1,11 +1,11 @@
 // input 3 integer from user and the print the greatest among those three integer.
-#include <iostream>
+#include <iostream> 
 using namespace std;
 int main()
 {
     int first, second, third;
     cout << "Enter the first integer: ";
-    cin >> first;
+    cin >> first;   
     cout << endl;
     cout << "Enter the second integer: ";
     cin >> second;
@@ -15,14 +15,14 @@ int main()
     cout << endl;
     if (first<second> third)
     {
-        cout << "second integer is the greatest integer";
+        cout << second<<" is the greatest integer";
         cout << endl;
     }
     else if (first > second && first > third)
     {
-        cout << "first integer is the greatest integer";
+        cout <<first<< " is the greatest integer";
         cout << endl;
-    }
+    }       
 
     else if (first == second == third)
     {
@@ -31,7 +31,7 @@ int main()
     }
     else
     {
-        cout << "third integer is the greatest integer";
+        cout <<third<< " is the greatest integer";
         cout << endl;
     }
 }
