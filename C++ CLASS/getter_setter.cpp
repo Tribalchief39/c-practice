@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include<bits/gc
 using namespace std;
 
 class hitman {
@@ -7,7 +8,7 @@ public:
     int health = 100;
 
     // getter
-    char getch() {
+    char getch() {  
         return ch;
     }
 
@@ -17,16 +18,16 @@ public:
     }
 
 private:
-    char ch = 'a';
+    char ch = 'a'; 
 };
-
+     
 int main() {
     hitman h1;
-
     cout << "Number of kills: " << h1.noofkills << endl;
-    cout << "Health: " << h1.health << endl;
+    cout << "Health: " << h1.health << endl; 
 
     cout << "Which weapon do I have: " << h1.getch() << endl;
+
 
     cout << "After updation..." << endl;
     h1.setch('d');

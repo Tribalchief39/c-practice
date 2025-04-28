@@ -38,7 +38,7 @@ Rectangle(double w, double h) : width(w), height(h) {}
 // Implementation of pure virtual function
 double area() override { return
 width * height;
-}
+} 
 };
 int main() {
 // Shape shape; // Error: Cannot instantiate abstract class

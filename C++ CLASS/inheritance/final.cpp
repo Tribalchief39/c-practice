@@ -40,7 +40,7 @@ public:
 // Error: cannot inherit from final class
 // class AnotherDerived : public FinalClass {
 // };
-override int main()
+int main()
 {
     Base baseObj;
     Derived derivedObj;
