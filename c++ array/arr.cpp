@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main()
-{
+{   
      int size = 5;
     int array[size];
 

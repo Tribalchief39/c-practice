@@ -23,7 +23,7 @@ int main()
     }
     cout<<endl;
     cout<<"After swaping: "<<endl;
-    reversearray(arr,n);
+    reversearray(arr,n);    
     for(int i=0;i<=n-1;i++)
     {
         cout<<arr[i]<<" ";
