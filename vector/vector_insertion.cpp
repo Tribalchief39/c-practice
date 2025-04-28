@@ -13,4 +13,6 @@ int main()
     {
         cout<<v.at(i)<<endl;
     }
+
+    
 }

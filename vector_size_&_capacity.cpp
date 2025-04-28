@@ -20,7 +20,7 @@ int main()
     cout<<V.at(2); //It will give us the value at index postion 2 in vector V.
 
     //Updating Element
-    v.at(2)=20;
-    cout<<v.at(2);
+    V.at(2)=20;
+    cout<<V.at(2);
 
 }
